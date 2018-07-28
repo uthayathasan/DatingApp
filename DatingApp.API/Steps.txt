@@ -1,0 +1,54 @@
+dotnet new webapi -o DatingApp.API -n DatingApp.API
+
+Stratup.cs
+//app.UseHsts();
+//app.UseHttpsRedirection();
+
+launchsettings.json
+last section (console section)
+"launchBrowser":false
+"applicationUrl":"http://localhost:5000"
+
+
+dotnet ef migrations add InitialCreate --context DataContext
+dotnet ef database update --context DataContext
+
+SQLite
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=DatingApp.db"
+  },
+services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+MSSql Webpos
+  "Data": {
+    "Products": {
+      "ConnectionString": "Server=(local);Database=WebPosV1;User Id=sa;Password=mg812yn;MultipleActiveResultSets=true"
+    }
+  }
+  webpos
+  ConnectionString=Configuration["Data:Products:ConnectionString"];
+
+"Data": {
+    "Local": {
+      "ConnectionString": "Server=(local);Database=Sharp;User Id=sa;Password=mg812yn;MultipleActiveResultSets=true"
+    },
+    "Identity": { "ConnectionString": "Server=(local);Database=Identity;User Id=sa;Password=mg812yn;MultipleActiveResultSets=true"
+      }
+  }
+  services.AddDbContext<DataContext>(options =>options.UseSqlServer(Configuration["Data:Local:ConnectionString"]));
+  services.AddDbContext<IdentityDataContext>(options =>options.UseSqlServer(Configuration["Data:Identity:ConnectionString"]));
+
+  status
+  200 ok
+  204 No Contant
+  npm install --global @angular/cli@1.6.6
+  npm uninstall -g @angular/cli
+  npm install -g @angular/cli@6.0.8
+  npx -p @angular/cli@6.0.8 ng new DatingApp_SPA
+
+
+   services.AddCors();
+   app.UseCors(x=>x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+
+   npm install bootstrap font-awesome
