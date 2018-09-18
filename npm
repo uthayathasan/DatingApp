@@ -1,3 +1,5 @@
+dotnet ef migrations add InitialCreate --context DataContext
+
 npm install alertifyjs --save
 npm install @auth0/angular-jwt
 npm install ngx-bootstrap --save
