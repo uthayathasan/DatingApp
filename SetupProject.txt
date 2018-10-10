@@ -1,0 +1,50 @@
+install the .Net SDK -> download .Net SDK 
+    dotnet --version
+    2.1.300
+
+install nodejs -> download nodejs (8.11.2 LTS)
+    node --version
+    v8.11.2
+    npm --version
+    6.1.0
+
+install VS Code
+
+VS code Extentions
+    C# for Visual Studio Code (powered by OmniSharp)
+    C# Extentions
+    Nuget Package Manager
+    .gitignore Generator
+
+
+Create DatingApp directry 
+    mkdir DatingApp
+    cd DatingApp
+
+Environment Change
+    Asp.net core
+        launchsettings.json
+            "Development" || "Production"
+
+----------------------------
+dotnet new webapi -o DatingApp.API -n DatingApp.API
+
+Models for Models
+Data for DataContext
+dotnet ef migrations add InitialCreate --context DataContext
+dotnet ef database update --context DataContext
+dotnet ef database drop
+dotnet ef migrations remove
+
+------------------------------
+Angular
+https://cli.angular.io/
+npm install -g @angular/cli@6.0.8
+
+ng new DatingApp-SPA
+
+
+
+
+
+
