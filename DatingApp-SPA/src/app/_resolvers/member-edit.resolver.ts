@@ -20,4 +20,18 @@ export class MemberEditResolver implements Resolve<User> {
                 })
             );
         }
+        /*
+        resolve(route: ActivatedRouteSnapshot): Observable<User> {
+            return this.userService.getUser(this.authService.decodedToken.nameid).pipe(
+                map((response: User) => {
+                    this.user = response;
+                }),
+                catchError(error => {
+                    this.alertify.error('Problem retrieving your data');
+                    this.router.navigate(['/members']);
+                    return of(null);
+                })
+            );
+        }
+        */
 }
