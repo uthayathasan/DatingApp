@@ -60,6 +60,20 @@ ng new DatingApp-SPA
 
 
 
+Chapter 11
+C# Section
+<PackageReference Include="CloudinaryDotNet" Version="1.3.1"/>
+Startup & appsettings.json
+Cloud name:	dhxckaeej
+API Key:	318591922151774
+API Secret:	AHV9ghOrn4kBrRRagPg4vCj_rvU
+Environment variable:	CLOUDINARY_URL=cloudinary://318591922151774:AHV9ghOrn4kBrRRagPg4vCj_rvU@dhxckaeej
+
+
+After 11th chapter please learn
+https://www.c-sharpcorner.com/article/configure-sql-server-session-state-in-asp-net-core/
+
+
 
 
 

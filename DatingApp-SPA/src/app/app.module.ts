@@ -20,6 +20,8 @@ import { UserService } from './_services/user.service';
 import { MembersModule } from './members/members.module';
 import { RouterModule } from '@angular/router';
 
+import { NgHttpLoaderModule } from 'ng-http-loader';
+
 export function tokenGetter() {
     return localStorage.getItem('token');
 }
@@ -36,6 +38,7 @@ export function tokenGetter() {
       MembersModule,
       BrowserModule,
       HttpClientModule,
+      NgHttpLoaderModule.forRoot(),
       FormsModule,
       BsDropdownModule.forRoot(),
       RouterModule.forRoot(appRoutes),
