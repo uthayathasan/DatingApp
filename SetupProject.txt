@@ -72,7 +72,13 @@ Environment variable:	CLOUDINARY_URL=cloudinary://318591922151774:AHV9ghOrn4kBrR
 
 After 11th chapter please learn
 https://www.c-sharpcorner.com/article/configure-sql-server-session-state-in-asp-net-core/
+CICD
+https://dzone.com/articles/articles-about-angular-and-aspnet-core
+https://www.youtube.com/watch?v=rjkCjPhznvc
+https://www.youtube.com/watch?v=U4m_pYAGd_g
 
+test
+https://medium.com/frontend-fun/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4
 
 
 
