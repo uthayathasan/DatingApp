@@ -5,6 +5,7 @@ import { TabsModule } from 'ngx-bootstrap';
 import { NgxGalleryModule } from 'ngx-gallery';
 import {FormsModule} from '@angular/forms';
 import { FileUploadModule } from 'ng2-file-upload';
+import {TimeAgoPipe} from 'time-ago-pipe';
 
 import { MemberListComponent } from './member-list/member-list.component';
 import { MemberCardComponent } from './member-card/member-card.component';
@@ -25,7 +26,8 @@ import { PhotoEditorComponent } from './photo-editor/photo-editor.component';
         MemberCardComponent,
         MemberDetailComponent,
         MemberEditComponent,
-        PhotoEditorComponent
+        PhotoEditorComponent,
+        TimeAgoPipe
      ],
      imports: [
         BrowserModule,
