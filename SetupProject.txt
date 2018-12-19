@@ -80,6 +80,21 @@ https://www.youtube.com/watch?v=U4m_pYAGd_g
 test
 https://medium.com/frontend-fun/angular-unit-testing-jasmine-karma-step-by-step-e3376d110ab4
 
+SSL
+https://www.youtube.com/watch?v=ehX6uOGQy90
+https://www.youtube.com/watch?v=2YFj9VA6pOE
+https://www.youtube.com/watch?v=gmxoC7HkylE
+https://www.youtube.com/watch?v=U7USHit5mhY
+https://www.youtube.com/watch?v=3oZ0TC4KKAo&list=PLWY93AcExoRV_KYxUI-6XFcFVKdJiZYYf
+https://www.youtube.com/watch?v=E89gTsSEZOo&list=PLWY93AcExoRV_KYxUI-6XFcFVKdJiZYYf&index=2
+https://www.youtube.com/watch?v=zMJaYlNgGu0&index=3&list=PLWY93AcExoRV_KYxUI-6XFcFVKdJiZYYf
+https://www.youtube.com/watch?v=BGsm7mrfC0Q&list=PLWY93AcExoRV_KYxUI-6XFcFVKdJiZYYf&index=4
+https://www.youtube.com/watch?v=U7USHit5mhY&list=PLWY93AcExoRV_KYxUI-6XFcFVKdJiZYYf&index=5
+https://www.youtube.com/watch?v=njN-k6TdSk4&index=6&list=PLWY93AcExoRV_KYxUI-6XFcFVKdJiZYYf
+
+Pdf Report
+https://code-maze.com/create-pdf-dotnetcore/
+
 
 
 

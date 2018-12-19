@@ -46,6 +46,7 @@ export class RegisterComponent implements OnInit {
   }
   register() {
     if (this.registerForm.valid) {
+      console.log(this.registerForm.value);
       this.user = Object.assign({}, this.registerForm.value);
       this.authService.register(this.user).subscribe(response => {
         // console.log(response.headers.get('location'));
